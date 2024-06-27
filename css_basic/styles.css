@@ -5,7 +5,8 @@ main{
 }
 body{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    background-color: blanchedalmond; 
 }
 article{
     flex: 2;
@@ -15,3 +16,18 @@ aside{
     flex: 1;
     overflow-y: auto
 }
+
+table, th, td {
+    border: 2px solid;
+  }
+  th {
+    height: 10%;
+  }
+  td,th {
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .logo{
+    background-color: rgb(223, 189, 145);
+  }
